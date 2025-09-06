@@ -1,0 +1,501 @@
+customer_id,company_name,industry,purchase_history,engagement_score,last_interaction_date,churn
+1,Weber Ltd,Healthcare,7723,26,2025-04-14,0
+2,"Morales, Hernandez and Taylor",Retail,14456,96,2025-06-13,0
+3,Dean and Sons,IT,14445,51,2025-06-14,1
+4,Hood-Brock,Healthcare,19568,23,2025-07-17,1
+5,Schwartz Group,Manufacturing,3179,17,2025-08-11,1
+6,"Montgomery, Smith and Bailey",Education,1167,23,2025-04-12,1
+7,White Group,Healthcare,14178,92,2025-07-15,0
+8,"Johnson, Romero and Cortez",Education,9230,88,2025-05-05,0
+9,Snow-Lewis,IT,3740,17,2025-06-26,0
+10,"Nichols, Chang and Sullivan",Manufacturing,1445,72,2025-07-20,1
+11,"Miller, Morrow and Harvey",IT,12080,57,2025-09-05,1
+12,"Hansen, Grimes and Glass",IT,7979,15,2025-04-29,1
+13,Cameron-Drake,Retail,10175,93,2025-04-29,1
+14,"Morton, Galloway and Joyce",Education,17909,17,2025-08-03,0
+15,Contreras-Ramirez,IT,17156,48,2025-06-25,0
+16,"Carter, James and Reid",Healthcare,8164,35,2025-03-19,0
+17,Armstrong-Donovan,Manufacturing,2336,42,2025-06-09,1
+18,Hancock-Davis,IT,14815,55,2025-04-06,1
+19,Day LLC,Healthcare,17940,71,2025-06-06,1
+20,Thompson Group,Retail,4688,45,2025-06-22,0
+21,Morales LLC,IT,14614,10,2025-07-22,0
+22,"Stewart, Stewart and Hernandez",Finance,8149,25,2025-08-21,0
+23,King-Rush,Manufacturing,7644,80,2025-05-14,0
+24,"Mccall, Kline and Vance",Manufacturing,9165,53,2025-03-07,0
+25,"Perry, Woodard and Robles",Manufacturing,9740,65,2025-06-13,1
+26,Lynn and Sons,Finance,4191,56,2025-07-03,1
+27,Moore-Mejia,Retail,2503,58,2025-07-28,1
+28,Moore-Price,Education,8697,86,2025-07-30,1
+29,Thomas-Peterson,IT,3363,87,2025-06-25,1
+30,Garcia-Shaw,Retail,5758,8,2025-04-19,0
+31,Morrison-James,Manufacturing,5613,41,2025-08-21,0
+32,Davis-Dalton,Manufacturing,10748,45,2025-07-25,0
+33,Murillo and Sons,Education,11147,81,2025-06-04,0
+34,Price and Sons,Finance,13804,65,2025-06-20,1
+35,Hernandez Ltd,IT,12053,8,2025-06-11,0
+36,"Owen, Bowen and Marshall",Education,16452,10,2025-07-17,1
+37,Howard and Sons,Education,19288,64,2025-04-11,0
+38,Nolan PLC,Retail,5119,74,2025-03-21,1
+39,Robinson Ltd,Retail,7934,15,2025-03-30,0
+40,Murray LLC,Education,16093,80,2025-04-25,1
+41,Jones Ltd,Finance,18666,32,2025-06-14,1
+42,Eaton Ltd,IT,10457,59,2025-05-01,1
+43,Harris-Carter,Retail,10348,10,2025-06-26,1
+44,Martin-Schmitt,Manufacturing,12867,34,2025-03-08,0
+45,"Moore, Lynch and Harris",Manufacturing,11396,37,2025-03-23,1
+46,Friedman Inc,IT,13003,30,2025-05-05,0
+47,"Kirk, Evans and Ryan",Education,10598,85,2025-08-13,0
+48,Garcia-Jones,Healthcare,4949,41,2025-09-03,1
+49,Crosby and Sons,Healthcare,9558,85,2025-06-06,0
+50,Hart-Bennett,IT,4895,57,2025-07-14,1
+51,"Johnson, Pierce and Brown",Retail,10524,35,2025-07-01,1
+52,"Schroeder, Anderson and Davis",Education,17127,50,2025-06-13,1
+53,Franco-Stevens,Retail,1296,27,2025-08-29,0
+54,Anderson-West,IT,4584,7,2025-03-11,1
+55,Rodriguez-Miller,Education,18908,77,2025-05-18,1
+56,Moore LLC,Education,7926,34,2025-08-26,0
+57,"Fitzgerald, Patterson and Henderson",IT,1269,10,2025-05-09,0
+58,Sampson Inc,Finance,14994,29,2025-06-14,0
+59,"Taylor, Chapman and Shah",IT,7137,38,2025-04-10,0
+60,Robles Inc,Healthcare,10718,98,2025-06-07,0
+61,Wilson LLC,IT,19561,64,2025-04-07,1
+62,"Romero, Wilson and Patrick",Healthcare,17769,88,2025-08-07,0
+63,Rogers-Wilkinson,IT,16627,1,2025-08-25,0
+64,Douglas-Mcneil,Retail,15039,83,2025-07-21,1
+65,Brown Inc,Education,16053,72,2025-06-26,0
+66,Barker PLC,Retail,2963,82,2025-07-09,1
+67,"Goodwin, Hughes and Johnson",Finance,6484,14,2025-05-01,1
+68,Hoffman LLC,Retail,4942,78,2025-06-01,0
+69,"Wilson, Johnson and Jones",Manufacturing,15589,24,2025-07-07,0
+70,Hernandez-Owen,Retail,18606,81,2025-06-15,0
+71,Garcia-Schmidt,IT,18276,39,2025-04-21,1
+72,Campbell Group,Education,10163,70,2025-04-20,0
+73,"Goodwin, Mitchell and Carter",Finance,8539,40,2025-06-15,1
+74,Austin and Sons,Healthcare,14940,86,2025-07-03,0
+75,"Baker, Graham and Patel",Education,6791,62,2025-07-03,1
+76,"Austin, Frye and Wade",Manufacturing,10553,60,2025-03-24,1
+77,Williams-Estes,Healthcare,1005,18,2025-09-05,1
+78,"Ellis, King and Rodriguez",IT,4715,25,2025-05-19,0
+79,Grant-Bailey,Education,6463,87,2025-08-05,0
+80,"Morris, Wise and Walker",IT,19160,30,2025-06-07,0
+81,Evans-Williams,Retail,3397,10,2025-04-17,1
+82,"Sanchez, Rogers and Nelson",Manufacturing,13026,11,2025-08-23,0
+83,"Owens, Carter and Carney",Retail,16331,20,2025-04-05,1
+84,"Tran, Torres and Wright",Retail,3364,66,2025-05-29,1
+85,Petersen Ltd,Finance,2680,8,2025-05-21,0
+86,"Gross, Reeves and Keith",Education,18402,36,2025-05-11,1
+87,Green LLC,Finance,4215,41,2025-06-02,1
+88,Miller-Jones,IT,3471,97,2025-05-04,1
+89,"Pugh, Alexander and Bell",Healthcare,3228,34,2025-06-22,1
+90,Davis LLC,Finance,17547,51,2025-03-11,1
+91,"White, Brown and Pennington",IT,12173,26,2025-05-20,0
+92,Davis LLC,Retail,7009,66,2025-07-01,0
+93,Moss-Hood,Manufacturing,12394,16,2025-06-23,1
+94,"Cox, Solis and Vargas",Retail,4076,2,2025-07-11,0
+95,"Manning, Bautista and Marshall",Finance,10805,58,2025-08-17,1
+96,Ball Group,Finance,6610,94,2025-04-09,0
+97,"Joseph, Walls and Robbins",IT,3411,83,2025-07-13,1
+98,"Shepard, Wilson and Hays",Education,7123,17,2025-08-01,1
+99,"Flores, Mitchell and Perez",Retail,7458,38,2025-08-26,1
+100,Harding Group,Manufacturing,1088,34,2025-05-11,0
+101,Price LLC,Healthcare,17195,39,2025-08-22,1
+102,Aguilar-Walker,Finance,3484,20,2025-04-03,0
+103,"Vargas, Stewart and Fields",Finance,6278,96,2025-04-23,0
+104,"Lee, Guerrero and White",Finance,3493,55,2025-03-26,1
+105,Jackson-Hunter,Manufacturing,4044,97,2025-05-25,0
+106,Rodriguez-Gilbert,Healthcare,5489,27,2025-08-24,1
+107,Ballard Ltd,Education,12541,90,2025-05-25,1
+108,Little LLC,Manufacturing,8699,12,2025-07-04,1
+109,Guerrero Ltd,Manufacturing,13678,96,2025-06-24,1
+110,Brennan PLC,Healthcare,13491,23,2025-05-08,1
+111,Booth-Lowe,Education,15144,13,2025-03-09,0
+112,Delacruz-Brennan,Healthcare,1822,84,2025-06-09,0
+113,"Krueger, Miller and Tucker",Finance,14020,21,2025-07-23,0
+114,Jones-Reynolds,IT,5812,75,2025-06-09,0
+115,Kramer Group,Retail,2167,67,2025-09-05,0
+116,"Flores, Russo and Mendoza",IT,11214,57,2025-03-25,0
+117,Doyle-Savage,Manufacturing,18744,44,2025-07-04,1
+118,Barnes-Silva,Healthcare,2506,87,2025-08-07,0
+119,Taylor-Avila,Education,15808,31,2025-07-27,0
+120,Olson-Contreras,IT,5365,9,2025-05-28,1
+121,Ramos-Perez,IT,5714,82,2025-06-15,0
+122,"Benton, Hernandez and Hill",IT,5504,68,2025-05-17,0
+123,Smith Inc,Education,17142,69,2025-08-12,0
+124,Collins Group,Education,9921,84,2025-03-23,1
+125,"Huynh, Holmes and Monroe",Retail,14331,58,2025-06-13,0
+126,Huber Group,Education,18689,55,2025-06-19,1
+127,"Stanton, Watkins and Riley",Education,19066,70,2025-06-24,0
+128,"Tate, Harper and Coleman",Retail,1630,81,2025-05-27,1
+129,Moore-Alvarado,Manufacturing,12632,97,2025-04-11,0
+130,Soto PLC,Healthcare,1800,78,2025-07-25,0
+131,"Alvarez, Stevens and Jackson",Education,15475,25,2025-05-06,1
+132,"Holder, Clark and Cox",Healthcare,12948,91,2025-07-14,1
+133,Johnson-Shaw,Education,10221,20,2025-09-02,1
+134,Phillips and Sons,Finance,2770,44,2025-06-28,0
+135,"Clayton, Zimmerman and Davis",IT,16378,50,2025-06-17,0
+136,"Alexander, Brown and Tucker",Healthcare,18889,4,2025-03-15,1
+137,Ramirez LLC,Manufacturing,10777,89,2025-09-04,1
+138,Snyder Group,IT,5426,57,2025-06-09,1
+139,Williams and Sons,Education,18725,14,2025-06-25,1
+140,"Williamson, Boyd and Hamilton",Healthcare,8443,28,2025-07-20,0
+141,Delgado-Tate,IT,12287,0,2025-08-26,0
+142,"Espinoza, Hamilton and Edwards",Finance,3605,0,2025-06-23,1
+143,Jennings-Sherman,Healthcare,1817,42,2025-07-12,0
+144,Powell-Moore,Education,13245,37,2025-06-28,1
+145,Brown-Avila,Retail,17684,54,2025-03-12,1
+146,"Baker, Short and Hall",Finance,1939,94,2025-07-27,0
+147,White-Hunt,Finance,5810,22,2025-08-20,0
+148,Burnett-Mayo,Finance,11975,68,2025-07-22,1
+149,Russell Inc,IT,3549,42,2025-04-12,1
+150,"Mills, Barnes and Herring",Healthcare,18947,58,2025-07-13,0
+151,"Dunn, White and Hunter",Healthcare,4903,22,2025-07-25,1
+152,Shaw-Blake,IT,5428,0,2025-08-29,0
+153,"Hernandez, Adams and Davidson",Manufacturing,3252,94,2025-06-27,0
+154,James Group,IT,3883,37,2025-08-02,1
+155,Torres Ltd,Healthcare,16533,42,2025-07-30,1
+156,"Williams, Young and Ibarra",IT,2095,29,2025-04-28,0
+157,Bowman Ltd,IT,13101,0,2025-05-24,0
+158,Boone-Hansen,Finance,9820,80,2025-05-07,1
+159,White-Baker,Healthcare,4566,100,2025-06-19,1
+160,Garcia-Mills,IT,3262,18,2025-07-23,0
+161,Warren-Garcia,Finance,2812,100,2025-06-26,0
+162,Lopez and Sons,Education,10402,47,2025-08-20,1
+163,"Nelson, Marshall and Mendoza",IT,13310,10,2025-03-22,1
+164,Medina LLC,Finance,11382,71,2025-08-19,1
+165,"Bray, Miller and Torres",Finance,1163,98,2025-06-19,0
+166,Smith-Jones,Retail,7800,30,2025-05-18,1
+167,Gonzalez Group,IT,17093,54,2025-04-26,0
+168,"Garrison, Walker and Cooper",Retail,13767,35,2025-06-17,1
+169,"Pearson, Porter and Whitehead",Retail,18344,65,2025-06-23,0
+170,Taylor-Gomez,Manufacturing,1630,67,2025-05-25,0
+171,"Snow, Scott and Small",IT,18448,11,2025-07-05,1
+172,Welch Ltd,Healthcare,14777,42,2025-04-26,0
+173,Schneider-Taylor,Manufacturing,17533,30,2025-06-18,0
+174,"Villarreal, Carroll and Matthews",Manufacturing,17444,29,2025-05-31,1
+175,Mann Inc,Manufacturing,11809,27,2025-05-25,0
+176,"Travis, Beck and Roberts",Manufacturing,8532,6,2025-07-27,1
+177,Gray-Serrano,Manufacturing,5892,76,2025-04-21,0
+178,Cox Inc,Retail,13576,39,2025-03-09,0
+179,Barton-Castillo,Retail,7330,4,2025-07-29,0
+180,Barnes-Gilbert,Education,19654,27,2025-04-09,0
+181,Webb Inc,Retail,12777,92,2025-05-07,1
+182,Miller LLC,Finance,8423,77,2025-05-08,1
+183,Walker PLC,Finance,10096,67,2025-07-11,0
+184,Hunt Ltd,IT,13715,92,2025-06-21,0
+185,Ingram-Howard,Education,19616,69,2025-06-07,0
+186,Morgan Ltd,IT,8291,100,2025-07-15,1
+187,"Miller, Mccoy and Brown",Manufacturing,1726,50,2025-07-26,1
+188,"Perez, Griffith and Tanner",Retail,19139,29,2025-06-30,0
+189,Armstrong-Munoz,Healthcare,17251,38,2025-07-18,1
+190,Luna-Silva,Finance,2170,17,2025-03-17,1
+191,Wilson-Dean,Finance,5437,6,2025-07-15,0
+192,Johnson-Mcdonald,Education,11855,65,2025-08-13,1
+193,Castillo Ltd,Retail,1869,57,2025-07-16,1
+194,Rodriguez-Peters,Healthcare,4912,43,2025-06-23,0
+195,"Wilson, Jones and Dickerson",Healthcare,15967,3,2025-04-20,1
+196,"Cooper, Becker and Snow",Healthcare,6032,30,2025-09-05,1
+197,"Jones, Wilson and Adams",Education,6086,24,2025-04-18,0
+198,Walters and Sons,Finance,10795,59,2025-06-10,0
+199,Jackson Group,Education,11596,78,2025-05-02,0
+200,Nguyen-Carr,Healthcare,11485,49,2025-06-28,0
+201,"Knight, Brennan and Berger",Education,11076,4,2025-06-03,1
+202,"Smith, Moore and Richard",Education,18715,84,2025-06-21,0
+203,Banks and Sons,Retail,6494,66,2025-09-01,1
+204,Burton-Campbell,Manufacturing,8128,10,2025-03-30,1
+205,Foster-Harris,Education,5280,56,2025-08-01,0
+206,Larson and Sons,Healthcare,16928,30,2025-07-01,0
+207,Sanders Ltd,Finance,13231,13,2025-08-18,1
+208,"Roberson, Mitchell and Rich",Manufacturing,1765,86,2025-07-29,0
+209,Arroyo PLC,Finance,2135,4,2025-06-29,1
+210,"Cross, Bennett and Wilson",Finance,17279,48,2025-05-30,0
+211,Herring-Dixon,Retail,11794,36,2025-03-09,1
+212,"Mcclain, Cook and Walker",IT,16348,43,2025-05-27,1
+213,Ramirez-Santiago,Healthcare,7214,21,2025-03-26,0
+214,"Massey, Scott and Jones",Manufacturing,2861,32,2025-08-27,1
+215,"Robinson, Torres and Jackson",Manufacturing,5910,32,2025-06-23,0
+216,Escobar and Sons,Retail,19754,63,2025-03-09,1
+217,"Mullins, Holloway and Bishop",Education,6131,70,2025-06-19,0
+218,Holden Inc,Finance,19037,86,2025-03-14,0
+219,"Hayes, Houston and Mccormick",Education,5189,43,2025-05-31,0
+220,"Olson, Lopez and Hoover",Manufacturing,17612,63,2025-08-05,1
+221,Taylor PLC,Manufacturing,2512,9,2025-03-31,1
+222,Graham-Reynolds,Retail,14534,62,2025-03-27,1
+223,"Oneill, Sanchez and Moss",Healthcare,8231,12,2025-06-18,1
+224,Miller-Martin,IT,11521,79,2025-08-17,1
+225,Johnson-Turner,Retail,13408,85,2025-06-30,1
+226,Davis PLC,Healthcare,19735,63,2025-03-30,1
+227,"Brown, Smith and Watkins",IT,6878,41,2025-04-04,1
+228,Arnold Group,Finance,4628,44,2025-06-01,1
+229,Smith and Sons,Manufacturing,1997,76,2025-07-08,0
+230,Mcguire-Smith,Finance,17079,39,2025-08-21,1
+231,Payne and Sons,Manufacturing,1104,46,2025-03-11,0
+232,Hebert Ltd,Healthcare,14250,18,2025-05-01,0
+233,Gallagher-Hodge,IT,15524,25,2025-06-28,1
+234,Bruce-Perkins,Retail,15175,22,2025-03-08,0
+235,Gould-Leach,Finance,19035,25,2025-08-05,0
+236,Campbell-Todd,IT,1667,87,2025-09-05,1
+237,Jones PLC,Finance,14967,6,2025-03-19,1
+238,Ramirez-Keller,Finance,10561,12,2025-08-10,1
+239,Wood LLC,Healthcare,4901,45,2025-05-26,0
+240,Jordan-Parker,Healthcare,9099,22,2025-04-08,1
+241,Daugherty and Sons,Education,5646,20,2025-03-07,1
+242,Gonzales-Martinez,Retail,4894,25,2025-08-30,1
+243,Pierce-Williams,Finance,4729,90,2025-05-16,1
+244,Houston-Harris,Healthcare,3391,24,2025-05-30,1
+245,"Ruiz, Hall and Chandler",Education,4555,86,2025-04-04,1
+246,Kelly and Sons,Manufacturing,10641,78,2025-08-14,0
+247,Walsh-Kelly,Manufacturing,3788,62,2025-08-02,1
+248,Carr Inc,Education,13659,26,2025-04-05,1
+249,Cohen PLC,Finance,6771,47,2025-05-27,1
+250,"Rose, Green and Bell",Retail,19711,9,2025-04-18,1
+251,Chandler-Payne,Healthcare,17930,99,2025-07-27,1
+252,"Higgins, Beltran and Brennan",Retail,18628,84,2025-07-16,0
+253,Adams LLC,Education,17855,68,2025-03-07,1
+254,Allen and Sons,Healthcare,6938,70,2025-04-12,1
+255,"Gardner, Kim and Farley",Retail,9286,20,2025-08-08,0
+256,Roy-Torres,IT,5208,84,2025-07-28,1
+257,"Howell, Brown and Riley",Manufacturing,12414,4,2025-04-09,0
+258,Williams-Smith,IT,2629,37,2025-05-21,0
+259,Richardson LLC,Finance,3881,37,2025-07-11,1
+260,"Martin, Harris and Schmidt",Retail,8496,51,2025-06-04,0
+261,Rogers-Larson,Education,14960,20,2025-03-30,1
+262,"Medina, Miller and Lutz",Retail,15571,19,2025-03-08,1
+263,"Flores, Jackson and Cook",Manufacturing,6198,36,2025-05-02,0
+264,Roman PLC,Healthcare,15583,20,2025-03-23,0
+265,Robinson-Hunt,Manufacturing,19584,67,2025-04-20,1
+266,Clark-Taylor,Healthcare,12865,27,2025-03-17,1
+267,Garner-Gonzalez,Education,8729,76,2025-03-11,0
+268,Schmidt LLC,Education,3258,81,2025-08-31,1
+269,Williams Group,IT,12487,8,2025-09-02,1
+270,"Mason, Tucker and Mclaughlin",Education,7496,79,2025-04-21,1
+271,"Paul, Page and Clay",Retail,5668,81,2025-04-27,0
+272,Hughes and Sons,Manufacturing,11045,50,2025-08-11,1
+273,"Robbins, Evans and Long",IT,12373,35,2025-04-04,1
+274,Nelson Group,Retail,7064,88,2025-08-19,0
+275,Allen-Bryant,IT,8949,36,2025-06-16,1
+276,"Stone, Le and Mcintyre",Education,10958,64,2025-05-18,0
+277,Nielsen LLC,Education,18890,2,2025-08-01,0
+278,"Mitchell, White and Martinez",Manufacturing,15794,86,2025-04-10,0
+279,Lynn Group,Retail,11250,26,2025-03-29,1
+280,"Orr, Garza and Gallegos",Manufacturing,3349,95,2025-09-02,1
+281,Bradley Ltd,Manufacturing,6635,29,2025-08-01,0
+282,White-Wright,Healthcare,18802,12,2025-06-30,0
+283,Mcneil Inc,Healthcare,12684,57,2025-07-24,1
+284,Erickson and Sons,Healthcare,4009,12,2025-09-04,1
+285,Clark-Lewis,IT,6641,11,2025-08-18,0
+286,Kennedy and Sons,Education,12671,37,2025-07-03,0
+287,"Perkins, Peterson and Cardenas",Finance,19812,61,2025-06-18,1
+288,Williams Ltd,IT,4354,37,2025-07-02,1
+289,"Smith, Hunter and Lynch",Manufacturing,18693,12,2025-05-21,1
+290,Johnson PLC,Finance,17532,7,2025-05-06,1
+291,"Johnston, Hill and Ryan",Education,3301,93,2025-04-01,0
+292,"Valencia, Powell and Martin",Manufacturing,1448,20,2025-04-15,0
+293,Reed-French,Education,17757,40,2025-03-29,1
+294,Johnson-Preston,Manufacturing,15543,91,2025-07-16,1
+295,Lamb Inc,Finance,18593,55,2025-03-16,1
+296,King-Mclaughlin,Finance,18232,99,2025-03-29,0
+297,"Medina, Vincent and Wood",Finance,15301,54,2025-06-29,0
+298,Duarte-Byrd,Retail,9302,86,2025-07-28,1
+299,Jackson Ltd,IT,5816,21,2025-03-31,1
+300,Calderon-Simpson,Retail,5384,14,2025-06-28,0
+301,"Bowers, Gould and Farrell",Education,15003,57,2025-08-11,0
+302,Caldwell-Diaz,Manufacturing,11133,32,2025-06-02,0
+303,"Williams, Booth and Morris",IT,6941,94,2025-03-19,1
+304,"Tate, Burke and Edwards",Finance,7490,92,2025-06-17,0
+305,Wu-Garcia,Finance,6302,50,2025-08-29,0
+306,"Hicks, Molina and Richards",Finance,11511,18,2025-03-16,1
+307,Cabrera Group,Healthcare,11730,11,2025-08-31,0
+308,"Evans, Mann and Adams",Finance,15394,89,2025-05-16,1
+309,Pearson-Fisher,Finance,5453,2,2025-06-23,1
+310,"Mcdowell, Miranda and Collins",Healthcare,5895,76,2025-04-04,0
+311,"Riley, Finley and Peters",Manufacturing,2664,76,2025-08-23,0
+312,Pierce and Sons,Retail,14673,76,2025-08-05,0
+313,Hernandez and Sons,Healthcare,10400,41,2025-05-19,0
+314,Williams-Juarez,Retail,14987,8,2025-07-18,1
+315,"Brooks, Rodgers and Williams",IT,12418,25,2025-08-09,1
+316,Alvarez-Johnson,Education,7535,60,2025-06-06,0
+317,Watts-Terry,Manufacturing,4358,91,2025-07-17,0
+318,Smith LLC,Finance,5743,22,2025-06-01,1
+319,Castillo Inc,Healthcare,1483,35,2025-03-25,0
+320,"Keller, Walters and Jackson",Manufacturing,8690,12,2025-09-04,0
+321,"Lopez, Stewart and Simpson",Finance,15523,99,2025-04-17,0
+322,"Campbell, Wright and Jackson",IT,17832,5,2025-03-23,0
+323,Lang-Taylor,Finance,17733,82,2025-03-15,1
+324,"Bullock, Johnson and Liu",IT,13221,58,2025-06-16,0
+325,Miller LLC,Manufacturing,19774,62,2025-06-10,0
+326,Bolton-Riggs,Manufacturing,16875,81,2025-04-25,0
+327,"Parks, Jones and Romero",Retail,14617,3,2025-05-13,0
+328,"Hansen, Williams and Leblanc",Retail,7206,44,2025-03-31,0
+329,Smith-Sanders,Healthcare,19813,60,2025-05-10,1
+330,Horton-Boyer,IT,12521,41,2025-06-04,1
+331,Gentry-Dennis,Manufacturing,8961,26,2025-06-13,0
+332,Downs LLC,Finance,19523,47,2025-07-16,1
+333,Sullivan Inc,Retail,12101,64,2025-07-21,1
+334,Castro-Keller,Healthcare,16142,42,2025-08-14,1
+335,Butler PLC,Retail,16989,40,2025-05-08,1
+336,"Johnson, Ayala and Medina",Education,10789,41,2025-07-06,0
+337,Haynes-Blackwell,Manufacturing,1449,16,2025-04-04,1
+338,"Howell, Bird and Levy",Healthcare,17548,22,2025-08-23,1
+339,Esparza Inc,Retail,14399,97,2025-08-31,0
+340,Simmons-Lopez,Healthcare,12504,57,2025-08-19,0
+341,"Walsh, Shannon and Torres",IT,17911,84,2025-09-05,1
+342,"Duncan, King and Christian",IT,4694,84,2025-03-17,1
+343,Newman-Murray,Education,14170,30,2025-07-06,0
+344,Harris-Cannon,Retail,7906,58,2025-07-23,0
+345,Hart-Hanson,IT,11897,61,2025-05-20,0
+346,Shaw Group,IT,14732,13,2025-03-24,0
+347,Stewart Inc,Healthcare,10981,75,2025-04-07,0
+348,Alvarez-Nguyen,IT,3715,91,2025-07-27,1
+349,Vargas-Wilson,Finance,5299,7,2025-05-28,1
+350,"Martinez, Preston and Murray",Finance,1788,26,2025-05-08,0
+351,Yoder Group,Retail,9609,15,2025-04-03,0
+352,Murphy PLC,Healthcare,16448,56,2025-06-07,1
+353,Oconnor-Carroll,Healthcare,7605,37,2025-03-19,0
+354,Greene-Nunez,Retail,19173,45,2025-05-30,0
+355,Burke PLC,Manufacturing,1574,45,2025-04-01,1
+356,Barker Group,Finance,19000,85,2025-07-23,0
+357,"Mills, Snyder and Lin",Finance,16783,41,2025-05-04,1
+358,Boyer-Howell,Education,8045,43,2025-03-29,1
+359,"Mack, Wilson and Thomas",Retail,19433,60,2025-03-21,1
+360,"Johnson, Wagner and Wise",Manufacturing,18214,69,2025-08-21,1
+361,"Melton, Wilson and Wells",Retail,14232,94,2025-05-18,0
+362,"Williams, Martin and Robinson",IT,1298,61,2025-03-19,1
+363,Sims-Jones,IT,16526,7,2025-03-28,0
+364,Wang Inc,IT,5641,74,2025-06-17,1
+365,Martinez-Waters,Healthcare,4304,89,2025-04-03,1
+366,"Huynh, Cooper and Baker",Manufacturing,6101,4,2025-08-06,1
+367,Glenn-Blake,Education,11324,80,2025-04-04,1
+368,Herrera PLC,Finance,7954,21,2025-05-24,1
+369,Jones PLC,IT,6923,65,2025-05-01,1
+370,Fields-Lewis,Retail,17821,22,2025-05-23,1
+371,"Drake, Thompson and Smith",Retail,16544,35,2025-08-04,0
+372,"Jones, Smith and Marquez",Manufacturing,5528,69,2025-08-25,0
+373,Hart PLC,Manufacturing,3976,45,2025-03-12,0
+374,Rodriguez-White,IT,6837,49,2025-03-21,1
+375,Davis-Thomas,Retail,9982,99,2025-05-27,1
+376,"Bell, Griffith and Solis",Education,18147,49,2025-05-08,1
+377,Carrillo-Coleman,Manufacturing,11138,47,2025-03-16,1
+378,Gonzalez-Holden,IT,2468,37,2025-08-19,0
+379,"Smith, Morris and Spencer",Education,2232,37,2025-07-19,1
+380,"Kennedy, White and Morris",Manufacturing,16098,86,2025-06-30,1
+381,"Johnson, Alvarado and Cooper",Education,19354,24,2025-05-08,1
+382,Wright LLC,Finance,13589,76,2025-07-10,0
+383,Hill Ltd,Manufacturing,8869,49,2025-06-20,1
+384,"Snyder, Diaz and Leonard",Healthcare,9459,34,2025-04-06,0
+385,Bass-Carroll,Finance,3858,0,2025-05-30,1
+386,Sanchez PLC,Manufacturing,6934,45,2025-05-20,1
+387,Garrison Ltd,Retail,13812,71,2025-08-11,0
+388,White LLC,IT,10203,27,2025-05-29,0
+389,"Williams, Gonzalez and Stephens",Education,2613,62,2025-04-01,0
+390,Ramirez PLC,IT,9405,64,2025-07-21,0
+391,Gill-Garcia,Manufacturing,7582,39,2025-06-27,1
+392,"Matthews, Martinez and Moreno",Healthcare,8457,79,2025-08-07,1
+393,Cox Group,Healthcare,16772,91,2025-08-30,1
+394,Mcdonald-Livingston,Finance,5405,53,2025-06-11,0
+395,"Branch, Barnett and Sandoval",Finance,8270,69,2025-07-08,1
+396,Dixon-Leonard,Manufacturing,13577,1,2025-07-21,1
+397,Keller PLC,Healthcare,12547,54,2025-04-23,1
+398,"Petersen, Santos and Salazar",IT,2975,89,2025-03-14,0
+399,Gonzalez-Harris,Healthcare,3634,84,2025-07-23,0
+400,Johnson-Robinson,Finance,8093,59,2025-06-20,1
+401,"Roth, Hampton and Spears",IT,16635,29,2025-06-17,0
+402,"Walls, Jones and Thomas",Retail,8786,87,2025-04-21,1
+403,Miller LLC,Healthcare,9126,64,2025-09-04,0
+404,"Anderson, Rivera and Coleman",Retail,19845,31,2025-05-18,1
+405,Green Inc,Education,17918,62,2025-03-20,1
+406,Petersen-Joyce,Education,19115,51,2025-03-29,1
+407,Carter-Jones,Healthcare,19810,83,2025-07-01,1
+408,"Humphrey, Bryant and Perez",Healthcare,15170,76,2025-06-14,0
+409,"Fisher, Lee and Rodriguez",Finance,19110,5,2025-04-30,0
+410,"Richardson, Strong and Perry",Education,2357,58,2025-03-15,1
+411,Taylor Ltd,Healthcare,6610,79,2025-05-03,1
+412,Gardner-Green,Education,9384,14,2025-03-07,1
+413,"Davidson, Browning and Allen",Education,4881,65,2025-05-09,0
+414,"Stanton, Hall and Miller",Retail,3941,64,2025-06-19,0
+415,"Lawson, Ortiz and Petersen",IT,18606,60,2025-06-11,0
+416,"Allen, Wheeler and Baker",IT,19381,76,2025-05-11,1
+417,Miller PLC,Finance,4070,30,2025-05-12,1
+418,Calderon-Acosta,Finance,5422,66,2025-08-08,1
+419,Rivera LLC,IT,15158,66,2025-07-28,1
+420,Davis-Burton,Education,14319,68,2025-07-10,0
+421,King-Rollins,Healthcare,1569,23,2025-03-12,0
+422,Malone Inc,Education,10324,80,2025-06-08,0
+423,"Taylor, Gordon and Mitchell",Healthcare,11242,45,2025-04-09,0
+424,Watson and Sons,Healthcare,4122,14,2025-07-16,0
+425,Perry and Sons,Manufacturing,17425,53,2025-05-31,0
+426,Alexander and Sons,Education,12285,92,2025-03-12,1
+427,"Harris, Mcknight and Kelly",Healthcare,9355,95,2025-03-13,1
+428,Pacheco-Johnson,Education,9964,88,2025-06-09,1
+429,Williams-May,Manufacturing,1300,90,2025-03-27,1
+430,Black Ltd,Healthcare,7965,6,2025-07-29,0
+431,Rogers Group,Retail,6314,84,2025-07-10,1
+432,Knight and Sons,Manufacturing,16678,76,2025-07-08,0
+433,Jones and Sons,Healthcare,18559,30,2025-06-02,0
+434,"Hart, Newman and Martinez",IT,5944,17,2025-07-18,1
+435,Davis LLC,Healthcare,14692,73,2025-09-03,1
+436,Howard-Flores,Education,14127,87,2025-08-13,1
+437,Roberts-Cardenas,Retail,14570,60,2025-08-03,1
+438,Marshall Inc,Retail,10228,62,2025-03-12,1
+439,Lindsey and Sons,IT,13033,0,2025-08-01,1
+440,Young-Casey,IT,8860,45,2025-03-29,1
+441,Davenport-Davis,Healthcare,13521,75,2025-03-21,0
+442,Bailey-Nelson,Education,18026,54,2025-04-04,1
+443,"Sullivan, Cox and Solomon",Education,7788,54,2025-06-20,1
+444,Petty Inc,Education,7716,98,2025-09-03,1
+445,Watkins Group,Education,1085,42,2025-06-18,1
+446,Jacobs PLC,IT,19913,94,2025-07-28,0
+447,Boyd Inc,Manufacturing,16573,93,2025-03-09,1
+448,Perez-Hernandez,Retail,7802,84,2025-08-31,1
+449,"Smith, Miller and Schmidt",Education,13663,10,2025-07-21,0
+450,"Murphy, Harris and Willis",Retail,12406,89,2025-04-16,1
+451,"Calhoun, Adams and Torres",Retail,13908,66,2025-07-20,0
+452,Wood-Prince,Manufacturing,10817,49,2025-06-21,1
+453,"Fleming, Baldwin and Jones",Education,13108,71,2025-08-02,0
+454,"Rodriguez, Dean and Maldonado",Finance,11000,34,2025-07-16,0
+455,"Bond, Donaldson and Clarke",Healthcare,14808,22,2025-06-20,1
+456,Velasquez-Cook,Manufacturing,17686,57,2025-06-19,0
+457,"Miller, Kaiser and Hendricks",Education,9263,12,2025-08-15,0
+458,Smith-Smith,Education,6957,30,2025-03-13,1
+459,Tran PLC,Retail,6879,79,2025-06-22,0
+460,Rios Group,IT,12153,97,2025-04-23,0
+461,Mendez-Coleman,Education,5410,44,2025-07-22,1
+462,"Taylor, Mills and Campbell",Finance,3123,84,2025-03-23,0
+463,Martin Ltd,Healthcare,17081,51,2025-03-10,0
+464,"Mathis, Carlson and Gonzalez",Education,5214,69,2025-05-15,1
+465,Berg Ltd,Healthcare,12035,38,2025-08-12,0
+466,Cole PLC,Manufacturing,11920,86,2025-04-02,1
+467,Dougherty Inc,Manufacturing,12453,94,2025-04-21,0
+468,Shaw Group,Education,10447,93,2025-03-20,1
+469,"Wilson, Smith and Reilly",Finance,7082,67,2025-05-28,0
+470,Roman and Sons,IT,15801,26,2025-06-02,0
+471,Sexton-Mcguire,Education,9987,98,2025-07-01,0
+472,Holland Group,Healthcare,18310,84,2025-03-17,1
+473,Booth Inc,Manufacturing,6523,3,2025-05-15,0
+474,"Cooper, Davis and King",Manufacturing,19397,13,2025-05-30,0
+475,"Russell, Roy and Clark",Finance,8741,97,2025-08-16,0
+476,Douglas Ltd,Education,16062,19,2025-04-26,0
+477,Curry PLC,IT,15084,42,2025-04-16,0
+478,Perez-Torres,Manufacturing,2087,19,2025-03-27,0
+479,"Shaffer, Sanchez and Barnes",Education,16813,62,2025-08-10,1
+480,"Arnold, Fleming and Valdez",Healthcare,2923,18,2025-09-03,0
+481,Edwards LLC,IT,8827,91,2025-04-17,0
+482,"Anderson, Le and Green",Healthcare,13253,100,2025-05-11,0
+483,"Robertson, Duffy and Moore",Manufacturing,8260,39,2025-04-15,1
+484,James Ltd,IT,2773,22,2025-05-04,0
+485,Flores-Greer,Retail,18378,93,2025-05-14,1
+486,Bailey LLC,Healthcare,18609,87,2025-07-11,1
+487,Hampton-Oneill,Healthcare,12584,31,2025-08-26,0
+488,Bowman-Ruiz,IT,9508,86,2025-03-14,0
+489,Koch-Torres,Retail,18605,0,2025-05-21,0
+490,"Myers, Preston and Riley",Finance,14738,48,2025-03-09,1
+491,Green Inc,Finance,13253,32,2025-03-22,0
+492,Lee-Wallace,Healthcare,3349,71,2025-07-15,1
+493,"Duncan, Johnson and Davis",Healthcare,15974,11,2025-05-06,0
+494,"Gonzales, Bailey and Klein",Healthcare,3924,61,2025-08-31,0
+495,Bryant-Brown,Healthcare,5459,99,2025-05-07,1
+496,"Woods, Brown and Anderson",Education,12080,54,2025-05-04,1
+497,Hernandez PLC,Healthcare,6690,95,2025-05-14,1
+498,"Oneal, Harris and Carroll",Education,11105,5,2025-05-06,0
+499,"Malone, Armstrong and Nunez",Retail,16683,10,2025-07-15,0
+500,Sanchez Inc,Manufacturing,6787,81,2025-06-12,1

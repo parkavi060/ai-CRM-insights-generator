@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CRM Insights — Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link rel="icon" href="/static/logo.png" type="image/png">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f3f0f8;
+      color: #333;
+    }
+    .navbar-light.bg-white {
+      background-color: #6f42c1 !important;
+    }
+    .navbar-light .navbar-brand, .navbar-light .nav-link {
+      color: #fff !important;
+    }
+    .nav-link.active {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .card {
+      background-color: #eae3f8;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    button.btn-primary {
+      background-color: #6f42c1;
+      border-color: #6f42c1;
+    }
+    button.btn-outline-primary {
+      color: #6f42c1;
+      border-color: #6f42c1;
+    }
+    #segment_pie, #trend_chart {
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-3">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="/static/logo.png" alt="logo" width="36" class="me-2">
+      <div>
+        <div style="font-weight:600;">AI CRM Insights</div>
+        <small>Interactive Dashboard</small>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#" data-tab="welcome" onclick="showTab('welcome')">
+            <i class="bi bi-house-door-fill me-1"></i> Welcome
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-tab="dashboard" onclick="showTab('dashboard')">
+            <i class="bi bi-speedometer2 me-1"></i> Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-tab="highrisk" onclick="showTab('highrisk')">
+            <i class="bi bi-exclamation-triangle-fill me-1"></i> High Risk
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-tab="upsell" onclick="showTab('upsell')">
+            <i class="bi bi-cart-check-fill me-1"></i> Upsell
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-tab="chatbot" onclick="showTab('chatbot')">
+            <i class="bi bi-chat-dots-fill me-1"></i> Chatbot
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-tab="info" onclick="showTab('info')">
+            <i class="bi bi-info-circle-fill me-1"></i> Info
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mb-5">
+
+<!-- Welcome tab -->
+<section id="tab-welcome" class="app-tab">
+  <div class="row align-items-center">
+    <div class="col-md-7">
+      <h2>👋 Hi, Welcome</h2>
+      <p style="font-size:1.1rem;">Identify at-risk accounts, discover upsell opportunities, and get quick insights — all in one place.</p>
+      <div class="mt-3">
+        <button class="btn btn-primary me-2" onclick="showTab('dashboard')">Go to Dashboard</button>
+        <button class="btn btn-outline-primary" onclick="showTab('chatbot')">Open Chatbot</button>
+      </div>
+    </div>
+    <div class="col-md-5 text-center">
+      <div class="card p-3 shadow-sm">
+        <h5 class="mb-2">Quick Snapshot</h5>
+        <p id="quick-snapshot" class="mb-0">Loading...</p>
+        <img src="/static/welcome.png" alt="Dashboard Illustration" class="img-fluid rounded shadow-sm mt-2">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dashboard tab -->
+<section id="tab-dashboard" class="app-tab" style="display:none;">
+  <div class="row">
+    <div class="col-lg-5">
+      <div class="card p-3 mb-3">
+        <h5>Engagement Segments</h5>
+        <div id="segment_pie"></div>
+        <small>Click a slice to view that segment in High Risk tab.</small>
+      </div>
+      <div class="card p-3">
+        <h5>Engagement Trend</h5>
+        <div id="trend_chart"></div>
+      </div>
+    </div>
+    <div class="col-lg-7">
+      <div class="card p-3 mb-3">
+        <h5>Top At-Risk Customers</h5>
+        <div id="top_risk_table"></div>
+      </div>
+      <div class="card p-3">
+        <h5>Other KPIs</h5>
+        <div class="row text-center">
+          <div class="col-4"><h3 id="kpi_count">—</h3><small>Total Accounts</small></div>
+          <div class="col-4"><h3 id="kpi_highrisk">—</h3><small>High Risk</small></div>
+          <div class="col-4"><h3 id="kpi_upsell">—</h3><small>Upsell Candidates</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- High Risk tab -->
+<section id="tab-highrisk" class="app-tab" style="display:none;">
+  <div class="card p-3">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <h5 id="highrisk_heading">High Risk Individuals</h5>
+      <div>
+        <button class="btn btn-sm btn-outline-secondary me-1" onclick="refreshHighRisk()">Refresh</button>
+        <button class="btn btn-sm btn-primary" onclick="downloadSegmentCSV('at_risk')">Download CSV</button>
+      </div>
+    </div>
+    <div id="highrisk_table"></div>
+  </div>
+</section>
+
+<!-- Upsell tab -->
+<section id="tab-upsell" class="app-tab" style="display:none;">
+  <div class="card p-3">
+    <h5>Upsell Opportunities</h5>
+    <div id="upsell_cards" class="row g-3 mt-2"></div>
+  </div>
+</section>
+
+<!-- Chatbot tab -->
+<section id="tab-chatbot" class="app-tab" style="display:none;">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card p-3">
+        <div id="chatbox" style="height:420px; overflow:auto; background:#fff; padding:10px; border-radius:6px;"></div>
+        <div class="input-group mt-2">
+          <input id="chat-input" class="form-control" placeholder="Ask something...">
+          <button id="chat-send" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h6>Help Box</h6>
+        <ul>
+  <li> "Show top churn accounts"</li>
+  <li> "Suggest upsell for high-value segment"</li>
+  <li> "Show customer segments"</li>
+  <li> "List low-risk customers"</li>
+  <li> "Show high-value customers"</li>
+  <li> "Tell me about C00001"</li>
+  <li> "Who are at risk of churn?"</li>
+  <li> "Give details for 2"</li>
+  <li> "Upsell candidates"</li>
+  <li> "Show distribution of segments"</li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Info tab -->
+<section id="tab-info" class="app-tab" style="display:none;">
+  <div class="card p-3">
+    <h5>About this Dashboard</h5>
+    <div id="info_content">Loading project info...</div>
+  </div>
+</section>
+
+</div>
+
+<script src="/static/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
