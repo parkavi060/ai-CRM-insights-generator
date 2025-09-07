@@ -181,6 +181,14 @@ $('chat-send').addEventListener('click', async ()=>{
   }catch(e){ box.innerHTML+='<div class="text-danger">Chat failed.</div>'; }
 });
 
+// Send on Enter key inside chat input
+$('chat-input').addEventListener('keydown', (e)=>{
+  if(e.key === 'Enter' && !e.shiftKey){
+    e.preventDefault();
+    $('chat-send').click();
+  }
+});
+
 async function downloadSegmentCSV(segment){
   try{
     const res = await fetch(`/api/segment/${segment}`);

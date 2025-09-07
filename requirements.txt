@@ -7,3 +7,9 @@ matplotlib
 seaborn
 plotly
 openai
+chromadb
+google-generativeai
+sentence-transformers
+langchain
+langchain-google-genai
+flask

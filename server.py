@@ -124,8 +124,19 @@ def api_info():
 def api_chat():
     payload = request.get_json() or {}
     query = payload.get("query", "")
-    answer = handle_query(query, df)
-    return jsonify({"answer": answer})
+    # handle_query returns (response_text, context)
+    try:
+        response_text, context = handle_query(query, df, payload.get("context"))
+    except Exception:
+        # Backward compatibility if handle_query returns just a string
+        ans = handle_query(query, df)
+        if isinstance(ans, tuple) and len(ans) >= 1:
+            response_text = ans[0]
+            context = ans[1] if len(ans) > 1 else {}
+        else:
+            response_text = str(ans)
+            context = {}
+    return jsonify({"answer": response_text, "context": context})
 
 
 if __name__ == "__main__":

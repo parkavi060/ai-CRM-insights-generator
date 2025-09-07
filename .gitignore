@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual Environment
+venv/
+.env
+.venv/
+ENV/
+
+# Jupyter & Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cache
+.cache/
+pytest_cache/
+
+# Data & Models (optional - comment if you want to version them)
+# data/
+models/*.tmp
+
+# ChromaDB persistent storage
+chroma_db/
+
+# Local config and secrets
+*.env
+.env.*
+*.secret
+
+# Node (if any frontend assets)
+node_modules/
+
+# Images generated at runtime
+static/*.tmp
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Misc
+*.swp
+*.swo

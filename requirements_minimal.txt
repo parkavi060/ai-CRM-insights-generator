@@ -1,0 +1,5 @@
+pandas
+numpy
+google-generativeai
+chromadb
+sentence-transformers
