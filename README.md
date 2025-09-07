@@ -75,8 +75,8 @@ A comprehensive CRM analytics platform that combines traditional machine learnin
    ```bash
    git clone https://github.com/parkavi060/ai-CRM-insights-generator.git
    cd AI-Enhanced-Customer-Relationship-Management-CRM-Insights-Generator
-   python3 -m venv venv
-   source venv/bin/activate
+   python -m venv venv
+   venv/bin/activate.ps1
    ```
 
 2. **Install Dependencies**
@@ -275,3 +275,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 **Built with ❤️ using Python, Flask, ChromaDB, and Google Gemini API**
+
